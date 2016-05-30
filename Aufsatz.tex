@@ -1,0 +1,39 @@
+%!TeX program = xelatex
+%This is a sample LaTeX input file.  (Version of 11 April 1994.)
+%
+% A '%' character causes TeX to ignore all remaining text on the line,
+% and is used for comments like this one.
+
+\documentclass[12pt]{article}
+
+\title{\textbf{分析導論 學期報告}}  % Declares the document's title.
+\author{電機三~徐悅聲(B02901084)\\指導：張志中~教授}      % Declares the author's name.
+\date{\today}      % Deleting this command produces today's date.
+
+\usepackage[a4paper, margin=2 cm]{geometry}
+\usepackage{fontspec, sectsty, titling, amsmath, booktabs, diagbox} %加這個就可以設定字體 
+\usepackage{xeCJK} %讓中英文字體分開設置
+\setCJKmainfont[BoldFont=Kaiti TC Bold]{Kaiti TC}
+
+\defaultfontfeatures{Ligatures=TeX}
+
+%\setCJKmainfont{HanWangGSolid06cut1} %設定中文為系統上的字型，而英文不去更動，使用原TeX字型
+ % TTF 字型檔名: wtg-06cut1.ttf 超黑俏皮動物  PostScript 名: HanWangGSolid06cut1        CJK/FOP 字型名:hwgsc1
+
+\XeTeXlinebreaklocale "zh" %這兩行一定要加，中文才能自動換行
+\XeTeXlinebreakskip = 0pt plus 1pt %這兩行一定要加，中文才能自動換行
+
+%\allsectionsfont{\sffamily}
+\setlength{\droptitle}{-5em}
+
+\begin{document}             % End of preamble and beginning of text.
+\maketitle                   % Produces the title.
+
+今天我想談談的是我會選擇雙主修數學系的原因。起初只是與好友一席玩笑話。
+
+當初在大一升大二暑假之前，大家興致勃勃地討論着下學期計劃要修什麼樣的課，我最好的朋友當時手上有兩本書，一是Friedberg/Insel/Spence三人所著的Linear Algebra，二是鼎鼎大名的Rudin。兩本都是數學系大二必修的用書。我特別覺得它們精美，因爲我本科的工程用書往往笨重如磚，設計缺乏美感，內容不外乎例題導向，沒別的，就是與高中換湯不換藥的解題演練而已，非常之枯燥。而這兩本書卻給我一種很欠讀的感受，擺在眼前簡直實是在引誘你翻開它。它們篇幅精簡適中，結構嚴明，再加上 \LaTeX 的排版又出奇地適合閱讀。
+
+我朋友後來因爲自己的規劃，跑去修哲學的課去了。他看我好像很喜歡那兩本書，就隨口一句：“不如你去申請看看數學系雙主修，成功了兩本書就交給你。”殊不知在數學系開放的態度下要取得雙主修資格並不是那麼困難，但他還是很服氣地把兩本書交到了我手上。於是我從此開啓了“不務正業”的道路。我進入數學系的第一門課就是志中老師的分析導論，一接觸我從此改變對系統知識（至少在數學方面）的認識，
+
+
+\end{document}               % End of document.
